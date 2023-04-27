@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.register-form {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(204, 19, 204);
+}
+.register-form h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.form {
+    width: 500px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.form .form-control {
+    border-radius: 10px;
+}
+input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background-color: #084cdf;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.form label {
+    color: white;
+    margin-top: 30px;
+}
+.form .file {
+    margin-top: 30px;
+}
+.form .btn {
+    margin-top: 30px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+}
+.users {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 600px;
+    padding: 30px;
+}
+.users h2 {
+    color:rgb(204, 19, 204);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.users .user-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.users .user-list img {
+    width: 45px;
+    height: 45px;
+}
+.users .user-list p {
+    color: rgb(204, 19, 204);
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.users .user-list i {
+    font-size: 20px;
+}
